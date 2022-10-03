@@ -32,11 +32,13 @@ return resultado;
 }
 
 const lista=[];
-for(let i=0; i<10 ;i++){
-    lista[i] = preenche();
-    lista[i].resultado = calculo(lista[i]);
-    alert(" A lista possui "+ (10 - i)+ " posicoes livres");
-}
+do{
+    const pessoa = preenche();
+    pessoa.resultado = calculo(pessoa);
+    lista.push(pessoa);
+    let confirmacao = confirm("Deseja continuar ? ");
+    
+}while (confirmacao == true);
 
 alert(" Abra seu console na para vizualizar a lista !");
 
