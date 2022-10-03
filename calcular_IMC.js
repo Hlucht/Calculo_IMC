@@ -14,19 +14,19 @@ function calculo(objeto){
 const resultado = objeto.peso/(objeto.altura * objeto.altura);
 
 if(resultado < 18.5){
-    alert(objeto.nome+ " seu indice de maca corporal esta abaixo do normal"+ " -- "+ resultado.toFixed(2));
+    alert(objeto.nome+ " seu indice de massa corporal esta abaixo do normal"+ " -- "+ resultado.toFixed(2));
 
 }else if(resultado >= 18.5 && resultado <= 24.9){
-    alert(objeto.nome+ " seu indice de maca corporal esta normal"+ " -- "+ resultado.toFixed(2));
+    alert(objeto.nome+ " seu indice de massa corporal esta normal"+ " -- "+ resultado.toFixed(2));
 
 }else if(resultado >24.9 && resultado <= 29.9){
-    alert(objeto.nome+ " seu indice de maca corporal esta em sobrepeso"+ " -- "+ resultado.toFixed(2));
+    alert(objeto.nome+ " seu indice de massa corporal esta em sobrepeso"+ " -- "+ resultado.toFixed(2));
 
 }else if(resultado >29.9 && resultado <= 39.9){
-    alert(objeto.nome+ " seu indice de maca corporal esta em obesidade"+ " -- "+ resultado.toFixed(2));
+    alert(objeto.nome+ " seu indice de massa corporal esta em obesidade"+ " -- "+ resultado.toFixed(2));
 
 }else if(resultado >39.9){
-    alert(objeto.nome+ " seu indice de maca corporal esta em obesidade grave"+ " -- "+ resultado.toFixed(2));
+    alert(objeto.nome+ " seu indice de massa corporal esta em obesidade grave"+ " -- "+ resultado.toFixed(2));
 }
 return resultado;
 }
