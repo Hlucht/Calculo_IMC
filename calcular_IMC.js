@@ -33,8 +33,8 @@ return resultado;
 
 const lista=[];
 for(let i=0; i<10 ;i++){
-    lista[i] = preenche() 
-    lista[i].resultado = calculo(lista[i])
+    lista[i] = preenche();
+    lista[i].resultado = calculo(lista[i]);
     alert(" A lista possui "+ (10 - i)+ " posicoes livres");
 }
 
